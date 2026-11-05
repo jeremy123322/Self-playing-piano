@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MIDI Synthesia Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Tone.js + MIDI parser -->
+  <script src="https://unpkg.com/tone@14.8.49/build/Tone.js"></script>
+  <script src="https://unpkg.com/@tonejs/midi/build/Midi.js"></script>
+</head>
+
+<body>
+<header>
+  <input type="file" id="fileInput" accept=".mid,.midi" />
+  <button id="playPause">Play</button>
+  <button id="restart">Restart</button>
+
+  <span id="timeDisplay">00:00.000</span>
+  <span>[mm:ss:cs]</span>
+</header>
+
+<div id="viewer"></div>
+<div id="piano"></div>
+<script src="script.js"></script>
+</body>
+</html>

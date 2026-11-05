@@ -1,0 +1,27 @@
+{
+  "name": "self-playing-piano",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss": "8.5.22",
+      "sharp": "0.35.0"
+    }
+  },
+  "scripts": {
+    "build:packages": "pnpm --filter @spp/contracts build && pnpm --filter @spp/database build && pnpm --filter @spp/infrastructure build && pnpm --filter @spp/midi build",
+    "build": "pnpm build:packages && pnpm --filter @spp/device-simulator build && pnpm --filter @spp/web build",
+    "dev": "pnpm build:packages && pnpm --filter @spp/web dev",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm build:packages && pnpm -r typecheck",
+    "test": "pnpm build:packages && pnpm -r --workspace-concurrency=1 test",
+    "db:generate": "pnpm --filter @spp/database db:generate",
+    "db:migrate": "pnpm --filter @spp/database db:migrate",
+    "db:bootstrap": "pnpm --filter @spp/database db:bootstrap",
+    "device:configure": "node firmware/esp32/scripts/configure-device.mjs apps/web/.env.local",
+    "firmware:package": "node firmware/scripts/package-release.mjs"
+  }
+}

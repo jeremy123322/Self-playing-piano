@@ -1,0 +1,4 @@
+Circuit: * C:\Users\jerem\OneDrive\Travail\Projets\MicroControleur\Self_playing_piano\7_Simulation\Mosfet.asc
+
+Fatal Error: Port(pin) count mismatch between the definition of subcircuit "irlz44n" and instance: "xu1"
+The instance has more connection terminals than the definition.

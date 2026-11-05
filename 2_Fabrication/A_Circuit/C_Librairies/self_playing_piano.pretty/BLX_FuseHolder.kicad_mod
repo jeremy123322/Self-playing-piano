@@ -1,0 +1,116 @@
+(footprint "BLX_FuseHolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "152277d5-0be4-4543-8369-c5b05a3c777d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BLX_FuseHolder"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "70dd9193-1d22-4000-bde9-cb64ce2f24ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "262b9d79-8266-4a94-81d0-faaa74a9f720")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5e49aad-9289-4593-bd94-9c3ee4172c24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 25.4 9.398)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1edbc3b2-e8f0-428a-9321-d1192b2f52da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "034a386a-bd42-4feb-80c8-ebfb9a5b2bc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 1.7 4.699)
+		(size 1.778 2.54)
+		(drill oval 1.016 1.524)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c6c93987-76b2-41fd-a8c4-0b5fec6f16c9")
+	)
+	(pad "2" thru_hole roundrect
+		(at 23.7 4.699)
+		(size 1.778 2.54)
+		(drill oval 1.016 1.524)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "1e2ec0f6-50e7-4c92-ab63-6e8dcae9c3ea")
+	)
+	(group ""
+		(uuid "2d7e9734-739d-4096-9e62-d21cd3b6c907")
+		(members "1e2ec0f6-50e7-4c92-ab63-6e8dcae9c3ea" "c6c93987-76b2-41fd-a8c4-0b5fec6f16c9")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jerem/OneDrive/Travail/Projets/MicroControleur/Self_playing_piano/2_Fabrication/A_Circuit/B_3D/BLX-A Fuse.STEP"
+		(offset
+			(xyz 12.7 -4.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
