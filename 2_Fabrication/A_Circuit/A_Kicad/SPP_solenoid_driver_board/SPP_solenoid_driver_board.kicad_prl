@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Self_playing_piano.kicad_prl",
+    "filename": "SPP_solenoid_driver_board.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
