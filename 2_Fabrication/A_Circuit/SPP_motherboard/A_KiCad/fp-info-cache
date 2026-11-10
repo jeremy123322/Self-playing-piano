@@ -1,4 +1,4 @@
-25214286944219909
+25216081296921649
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101282,6 +101282,13 @@ BLX_FuseHolder
 0
 2
 2
+self_playing_piano
+CUI_MSD-1-A
+
+
+0
+13
+13
 self_playing_piano
 PCA9685_Devkit
 
