@@ -1,0 +1,8 @@
+"Reference","Value","Footprint","Datasheet","Qty","DNP","Exclude from BOM","Exclude from Board"
+"F1","Fuse","","~","1","","",""
+"J1","Screw_Terminal_01x02","","~","1","","",""
+"P1","USB_C_Plug_USB2.0","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-17","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","1","","",""
+"U1","ESP32-WROOM-32","RF_Module:ESP32-WROOM-32","https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf","1","","",""
+"U2","ATmega328P-A","Package_QFP:TQFP-32_7x7mm_P0.8mm","http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf","1","","",""
+"U3","CP2102N-Axx-xQFN20","Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm","https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf","1","","",""
+"U4","ACS711xEXLT-31AB","Sensor_Current:Allegro_QFN-12-10-1EP_3x3mm_P0.5mm","http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx","1","","",""
