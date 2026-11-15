@@ -632,6 +632,10 @@
     [
       "70594384-bbeb-493b-8fac-dd686b03203b",
       "ESP32"
+    ],
+    [
+      "c694b86b-cbbe-48ed-bedd-94ddc24a2e86",
+      "Peripherials"
     ]
   ],
   "text_variables": {}
