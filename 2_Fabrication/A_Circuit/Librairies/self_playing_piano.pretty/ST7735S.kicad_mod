@@ -1,0 +1,212 @@
+(footprint "ST7735S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0f8db0e8-5c61-4453-9047-ba359a7d6b37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ST7735S"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c49da93b-febd-4f8a-b25e-6aa91c2487af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b4f6344-6cf6-4dbd-86e9-b79be6fcdb89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ba29abf-d473-4346-9001-f847db7c5d67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.62 2.54)
+		(end 25.4 48.26)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5e63df31-8dff-4b20-9b3d-c07d99fa4c4f")
+	)
+	(fp_circle
+		(center -4.572 6.35)
+		(end -3.302 6.35)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2a26df84-a36e-4338-b25a-e37049d40ef1")
+	)
+	(fp_circle
+		(center -4.572 44.704)
+		(end -3.302 44.704)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "da6599e8-b533-42e1-8fba-9ae4d856cea0")
+	)
+	(fp_circle
+		(center 22.352 6.35)
+		(end 23.622 6.35)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1e71b87c-72f6-4cfd-afef-14ee9ff26285")
+	)
+	(fp_circle
+		(center 22.352 44.704)
+		(end 23.622 44.704)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4290598f-3960-4a7e-8132-998980221a63")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4804d2e3-e548-4af7-aa2a-8674d888d2eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 5.08)
+		(size 1.27 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "04dffea6-6634-48a6-88ea-d9fc987c465a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de5112db-39a7-4627-8bb9-1fa668f0b246")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28a8dcd5-32c2-4d94-bfef-3e50d604bb08")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "282327a0-1840-47d0-8db8-1393c8142789")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67bea847-6710-4186-b95e-fe140df957c8")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4acbbf5b-1e8f-40bb-bcb7-a82cdf8864c3")
+	)
+	(pad "7" thru_hole circle
+		(at 15.24 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1ec63a7-6696-4b4b-a9d6-cdc4417419be")
+	)
+	(pad "8" thru_hole circle
+		(at 17.78 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "562e4255-f2e5-472d-9bc3-8965e2c72036")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jerem/Documents/Repositories/Self-playing-piano/2_Fabrication/A_Circuit/3D/ER-TFTM1.54-1_3D.stp"
+		(offset
+			(xyz 8.9 -25.5 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 -5.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 180 90)
+		)
+	)
+)

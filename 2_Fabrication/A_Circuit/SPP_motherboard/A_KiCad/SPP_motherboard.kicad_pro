@@ -634,6 +634,10 @@
       "ESP32"
     ],
     [
+      "7bea9bb2-2ab0-4c3f-91b7-c323c7bdec8c",
+      "Atmega"
+    ],
+    [
       "c694b86b-cbbe-48ed-bedd-94ddc24a2e86",
       "Peripherials"
     ]
