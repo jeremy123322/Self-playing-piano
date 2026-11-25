@@ -1,4 +1,4 @@
-25217876160189089
+25219671541178213
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101277,6 +101277,13 @@ Varistor VF
 2
 self_playing_piano
 BLX_FuseHolder
+
+
+0
+2
+2
+self_playing_piano
+C7200477
 
 
 0
